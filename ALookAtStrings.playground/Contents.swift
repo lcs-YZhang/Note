@@ -143,11 +143,60 @@ print("Second last character is: \(secondLast)")
 print("===== Exercise 1 begins =====")
 let mrGordon = "Russell Gordon"
 var myIndex = mrGordon.index(mrGordon.startIndex, offsetBy: 0)
-let firstCharacter = mrGordon [String.Index][myIndex]
-print("The first character in the string is \(firstCharacter)")
+let myfirstCharacter = mrGordon [myIndex]
+print(myfirstCharacter)
 
+var myIndex1 = mrGordon.index(mrGordon.startIndex, offsetBy: 1)
+let mySecondCharacter = mrGordon [myIndex1]
+print(mySecondCharacter)
 
+var myIndex2 = mrGordon.index(mrGordon.startIndex, offsetBy: 2)
+let myThirdCharacter = mrGordon [myIndex2]
+print(myThirdCharacter)
 
+var myIndex3 = mrGordon.index(mrGordon.startIndex, offsetBy: 3)
+let myFourthCharacter = mrGordon [myIndex3]
+print(myFourthCharacter)
+
+var myIndex4 = mrGordon.index(mrGordon.startIndex, offsetBy: 4)
+let myFifthCharacter = mrGordon [myIndex4]
+print(myFifthCharacter)
+
+var myIndex5 = mrGordon.index(mrGordon.startIndex, offsetBy: 5)
+let mySixthCharacter = mrGordon [myIndex5]
+print(mySixthCharacter)
+
+var myIndex6 = mrGordon.index(mrGordon.startIndex, offsetBy: 6)
+let mySeventhCharacter = mrGordon [myIndex6]
+print(mySeventhCharacter)
+
+var myIndex7 = mrGordon.index(mrGordon.startIndex, offsetBy: 7)
+let myEighthCharacter = mrGordon [myIndex7]
+print(myEighthCharacter)
+
+var myIndex8 = mrGordon.index(mrGordon.startIndex, offsetBy: 8)
+let myNinethCharacter = mrGordon [myIndex8]
+print(myNinethCharacter)
+
+var myIndex9 = mrGordon.index(mrGordon.startIndex, offsetBy: 9)
+let myTenthCharacter = mrGordon [myIndex9]
+print(myTenthCharacter)
+
+var myIndex10 = mrGordon.index(mrGordon.startIndex, offsetBy: 10)
+let myEleventhCharacter = mrGordon [myIndex10]
+print(myEleventhCharacter)
+
+var myIndex11 = mrGordon.index(mrGordon.startIndex, offsetBy: 11)
+let myTwelethCharacter = mrGordon [myIndex11]
+print(myTwelethCharacter)
+
+var myIndex12 = mrGordon.index(mrGordon.startIndex, offsetBy: 12)
+let myThirteenthCharacter = mrGordon [myIndex12]
+print(myThirteenthCharacter)
+
+var myIndex13 = mrGordon.index(mrGordon.startIndex, offsetBy: 13)
+let myFourteenthCharacter = mrGordon [myIndex13]
+print(myFourteenthCharacter)
 /*:
 ### Exercise 2
 
