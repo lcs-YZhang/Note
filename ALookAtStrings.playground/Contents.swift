@@ -141,62 +141,55 @@ print("Second last character is: \(secondLast)")
  */
 // This will separate the output from the examples above from your work
 print("===== Exercise 1 begins =====")
-let mrGordon = "Russell Gordon"
-var myIndex = mrGordon.index(mrGordon.startIndex, offsetBy: 0)
-let myfirstCharacter = mrGordon [myIndex]
+let myName = "Steven Zhang"
+var myIndex = myName.index(myName.startIndex, offsetBy: 0)
+let myfirstCharacter = myName [myIndex]
 print(myfirstCharacter)
 
-var myIndex1 = mrGordon.index(mrGordon.startIndex, offsetBy: 1)
-let mySecondCharacter = mrGordon [myIndex1]
+var myIndex1 = myName.index(myName.startIndex, offsetBy: 1)
+let mySecondCharacter = myName [myIndex1]
 print(mySecondCharacter)
 
-var myIndex2 = mrGordon.index(mrGordon.startIndex, offsetBy: 2)
-let myThirdCharacter = mrGordon [myIndex2]
+var myIndex2 = myName.index(myName.startIndex, offsetBy: 2)
+let myThirdCharacter = myName [myIndex2]
 print(myThirdCharacter)
 
-var myIndex3 = mrGordon.index(mrGordon.startIndex, offsetBy: 3)
-let myFourthCharacter = mrGordon [myIndex3]
+var myIndex3 = myName.index(myName.startIndex, offsetBy: 3)
+let myFourthCharacter = myName [myIndex3]
 print(myFourthCharacter)
 
-var myIndex4 = mrGordon.index(mrGordon.startIndex, offsetBy: 4)
-let myFifthCharacter = mrGordon [myIndex4]
+var myIndex4 = myName.index(myName.startIndex, offsetBy: 4)
+let myFifthCharacter = myName [myIndex4]
 print(myFifthCharacter)
 
-var myIndex5 = mrGordon.index(mrGordon.startIndex, offsetBy: 5)
-let mySixthCharacter = mrGordon [myIndex5]
+var myIndex5 = myName.index(myName.startIndex, offsetBy: 5)
+let mySixthCharacter = myName [myIndex5]
 print(mySixthCharacter)
 
-var myIndex6 = mrGordon.index(mrGordon.startIndex, offsetBy: 6)
-let mySeventhCharacter = mrGordon [myIndex6]
+var myIndex6 = myName.index(myName.startIndex, offsetBy: 6)
+let mySeventhCharacter = myName [myIndex6]
 print(mySeventhCharacter)
 
-var myIndex7 = mrGordon.index(mrGordon.startIndex, offsetBy: 7)
-let myEighthCharacter = mrGordon [myIndex7]
+var myIndex7 = myName.index(myName.startIndex, offsetBy: 7)
+let myEighthCharacter = myName [myIndex7]
 print(myEighthCharacter)
 
-var myIndex8 = mrGordon.index(mrGordon.startIndex, offsetBy: 8)
-let myNinethCharacter = mrGordon [myIndex8]
+var myIndex8 = myName.index(myName.startIndex, offsetBy: 8)
+let myNinethCharacter = myName [myIndex8]
 print(myNinethCharacter)
 
-var myIndex9 = mrGordon.index(mrGordon.startIndex, offsetBy: 9)
-let myTenthCharacter = mrGordon [myIndex9]
+var myIndex9 = myName.index(myName.startIndex, offsetBy: 9)
+let myTenthCharacter = myName [myIndex9]
 print(myTenthCharacter)
 
-var myIndex10 = mrGordon.index(mrGordon.startIndex, offsetBy: 10)
-let myEleventhCharacter = mrGordon [myIndex10]
+var myIndex10 = myName.index(myName.startIndex, offsetBy: 10)
+let myEleventhCharacter = myName [myIndex10]
 print(myEleventhCharacter)
 
-var myIndex11 = mrGordon.index(mrGordon.startIndex, offsetBy: 11)
-let myTwelethCharacter = mrGordon [myIndex11]
+var myIndex11 = myName.index(myName.startIndex, offsetBy: 11)
+let myTwelethCharacter = myName [myIndex11]
 print(myTwelethCharacter)
 
-var myIndex12 = mrGordon.index(mrGordon.startIndex, offsetBy: 12)
-let myThirteenthCharacter = mrGordon [myIndex12]
-print(myThirteenthCharacter)
-
-var myIndex13 = mrGordon.index(mrGordon.startIndex, offsetBy: 13)
-let myFourteenthCharacter = mrGordon [myIndex13]
-print(myFourteenthCharacter)
 /*:
 ### Exercise 2
 
@@ -210,8 +203,11 @@ print("===== Exercise 2 begins =====")
 
 // Create a string
 let aQuestion = "请问现在几点了?"
-
 // Write code to complete the exercise below...
+var myIndex14 = aQuestion.index(aQuestion.startIndex, offsetBy: 3)
+let Character = aQuestion [myIndex14]
+print(Character)
+
 
 /*:
 ### Exercise 3

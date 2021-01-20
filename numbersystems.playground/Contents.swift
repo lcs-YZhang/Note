@@ -160,10 +160,24 @@ func getaBinaryRepresentation (of valueToConvert: Int, inBase Base: NumberSystem
     return Representation
 }
 
-
 getaBinaryRepresentation(of: 67, inBase: .binary)
 getaBinaryRepresentation(of: 190, inBase: .hexadecimal)
 getaBinaryRepresentation(of: 298, inBase: .octal)
 
+/* Binary to deciaml
+ Base 2 to base 10
+*/
 
+let value = "1011011"
 
+let base = 2.0
+
+var exponent = 0.0
+
+var decimalEquivalent = 0.0
+
+for Character in value.reversed () {
+    
+    let digit = Double(String (Character))
+    
+}
