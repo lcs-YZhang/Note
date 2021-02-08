@@ -14,7 +14,7 @@
 var x: Int?
 var y: Int?
 
-x * y
+x! * y!
 
 
 

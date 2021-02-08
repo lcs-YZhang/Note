@@ -23,10 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB239A0825D1A530008A7A21 /* Function .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Function .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB367BF225CC357000DEE51C /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FB36C2DA25A8C9870075B94C /* Note */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Note; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB36C2DD25A8C9870075B94C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB36C2E525A8C9FB0075B94C /* numbersystems.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = numbersystems.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FB48DCFD25ACBA9D000B6110 /* Data types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Data types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB63D41D25BA58BF0078BD8C /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FB63D41F25BA58DC0078BD8C /* Operators and conditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Operators and conditions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FB95E69225B5F32400853BB5 /* ExploringOptionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ExploringOptionals.playground; sourceTree = "<group>"; };
 		FB9A0C5825B200FF00D37CD4 /* ALookAtStrings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ALookAtStrings.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FBD97C2325B0967800EF0839 /* Fundimentals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Fundimentals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -46,6 +50,10 @@
 		FB36C2D125A8C9870075B94C = {
 			isa = PBXGroup;
 			children = (
+				FB239A0825D1A530008A7A21 /* Function .playground */,
+				FB367BF225CC357000DEE51C /* Structures.playground */,
+				FB63D41F25BA58DC0078BD8C /* Operators and conditions.playground */,
+				FB63D41D25BA58BF0078BD8C /* Arrays.playground */,
 				FB95E69225B5F32400853BB5 /* ExploringOptionals.playground */,
 				FB9A0C5825B200FF00D37CD4 /* ALookAtStrings.playground */,
 				FBD97C2325B0967800EF0839 /* Fundimentals.playground */,

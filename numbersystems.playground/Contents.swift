@@ -168,16 +168,40 @@ getaBinaryRepresentation(of: 298, inBase: .octal)
  Base 2 to base 10
 */
 
-let value = "1011011"
 
-let base = 2.0
+import Foundation
 
-var exponent = 0.0
-
-var decimalEquivalent = 0.0
-
-for Character in value.reversed () {
+func Number (value:String) -> Double{
+    var exponent = 0.0
+    let base = 16.0
+    var decimalEquivalent = 0.0
     
-    let digit = Double(String (Character))
-    
+    for character in value.reversed() {
+        switch character{
+        case "A":
+            decimalEquivalent += 10 * pow(base, exponent)
+        case "B":
+            decimalEquivalent += 11 * pow(base, exponent)
+        case "C":
+            decimalEquivalent += 12 * pow(base, exponent)
+        case "D":
+            decimalEquivalent += 13 * pow(base, exponent)
+        case "E":
+            decimalEquivalent += 14 * pow(base, exponent)
+        case "F":
+            decimalEquivalent += 15 * pow(base, exponent)
+        case "G":
+            decimalEquivalent += 16 * pow(base, exponent)
+        default:
+            let digit = Double(String(character))!
+            decimalEquivalent += digit * pow(base, exponent)
+        }
+        exponent += 1
+    }
+    return decimalEquivalent
 }
+
+let value = "2A5"
+
+print(Number (value: value))
+
